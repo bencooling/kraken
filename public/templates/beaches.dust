@@ -1,0 +1,18 @@
+{>"layouts/master" /}
+
+{<body}
+  <h1>Southern Gold Coast</h1>
+  {#beaches}
+    <li><strong>{name}</strong></li>
+  {/beaches}
+  <form method="POST" action="">
+    <input type="hidden" name="_csrf" value="{_csrf}">
+    <div class="form-row">
+      <input type="text" name="beach-name" /><span class="remove">-</span>
+    </div>
+    <!--<div class="add">+</div>-->
+    <div class="form-row form-actions">
+      <button>Add beach</button>
+    </div>
+  </form>
+{/body}
