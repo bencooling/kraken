@@ -9,6 +9,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "JSV": "^4.0.2",
     "adaro": "^0.1.5",
     "diskdb": "^0.1.14",
     "dustjs-helpers": "^1.2.0",
